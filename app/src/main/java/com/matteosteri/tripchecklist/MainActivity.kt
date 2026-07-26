@@ -32,7 +32,7 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import android.net.Uri
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import com.matteosteri.tripchecklist.theme.SportChecklistTheme
+import com.matteosteri.tripchecklist.theme.ChecklistTheme
 import androidx.compose.ui.platform.LocalContext
 import com.matteosteri.tripchecklist.data.preset.PresetIconMapper
 import com.matteosteri.tripchecklist.data.preset.getVisiblePresets
@@ -55,8 +55,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            SportChecklistTheme {
-                SportChecklistApp()
+            ChecklistTheme {
+                ChecklistApp()
             }
         }
     }
@@ -65,7 +65,7 @@ class MainActivity : ComponentActivity() {
 /* ---------------- NAVIGATION ---------------- */
 
 @Composable
-fun SportChecklistApp() {
+fun ChecklistApp() {
     val navController = rememberNavController()
     NavHost(navController, startDestination = "home") {
         composable("home") {
@@ -859,9 +859,10 @@ fun AppHeader() {
     var showThemeDialog by remember { mutableStateOf(false) }
 
     val context = LocalContext.current
+    @Suppress("DEPRECATION")
     val versionName = context.packageManager
-        .getPackageInfo(context.packageName, 0).versionName
-
+        .getPackageInfo(context.packageName, 0)
+        .versionName ?: ""
     Box(
         modifier = Modifier
             .fillMaxWidth()
@@ -1288,7 +1289,7 @@ fun AppHeader() {
                         verticalAlignment = Alignment.CenterVertically,
                         modifier = Modifier.clickable {
                             val intent = Intent(Intent.ACTION_SENDTO).apply {
-                                data = Uri.parse("mailto:matteosteri+sportchecklist@gmail.com")
+                                data = Uri.parse("mailto:matteosteri+tripchecklist@gmail.com")
                             }
                             context.startActivity(intent)
                         }

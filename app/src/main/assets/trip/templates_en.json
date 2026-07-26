@@ -1,0 +1,320 @@
+[
+  {
+    "id": "vacation",
+    "name": "Vacanza",
+    "icon": "flight",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documenti",
+        "icon": "description",
+        "items": [
+          { "name": "Carta d'identità o passaporto" },
+          { "name": "Biglietti e prenotazioni" },
+          { "name": "Patente di guida" },
+          { "name": "Assicurazione viaggio" }
+        ]
+      },
+      {
+        "name": "Abbigliamento",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Biancheria" },
+          { "name": "Vestiti" },
+          { "name": "Scarpe" },
+          { "name": "Pigiama" }
+        ]
+      },
+      {
+        "name": "Igiene personale",
+        "icon": "clean_hands",
+        "items": [
+          { "name": "Spazzolino" },
+          { "name": "Dentifricio" },
+          { "name": "Shampoo" },
+          { "name": "Deodorante" }
+        ]
+      },
+      {
+        "name": "Elettronica",
+        "icon": "devices",
+        "items": [
+          { "name": "Telefono" },
+          { "name": "Caricabatterie" },
+          { "name": "Power bank" },
+          { "name": "Cuffie/auricolari" }
+        ]
+      },
+      {
+        "name": "Farmaci",
+        "icon": "medical_services",
+        "items": [
+          { "name": "Farmaci personali" },
+          { "name": "Cerotti" },
+          { "name": "Antidolorifico" }
+        ]
+      },
+      {
+        "name": "Accessori",
+        "icon": "backpack",
+        "items": [
+          { "name": "Zaino" },
+          { "name": "Occhiali da sole" },
+          { "name": "Borraccia" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "business_trip",
+    "name": "Viaggio di lavoro",
+    "icon": "work",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documenti",
+        "icon": "description",
+        "items": [
+          { "name": "Carta d'identità o passaporto" },
+          { "name": "Biglietti e prenotazioni" },
+          { "name": "Documenti di lavoro" }
+        ]
+      },
+      {
+        "name": "Lavoro",
+        "icon": "work",
+        "items": [
+          { "name": "Computer portatile" },
+          { "name": "Caricabatterie PC" },
+          { "name": "Documenti di lavoro" },
+          { "name": "Materiale per riunioni" }
+        ]
+      },
+      {
+        "name": "Elettronica",
+        "icon": "devices",
+        "items": [
+          { "name": "Telefono" },
+          { "name": "Caricabatterie" },
+          { "name": "Adattatore universale" },
+          { "name": "Cuffie/auricolari" }
+        ]
+      },
+      {
+        "name": "Abbigliamento",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Abito o vestiti da lavoro" },
+          { "name": "Scarpe eleganti" },
+          { "name": "Cambio personale" }
+        ]
+      },
+      {
+        "name": "Accessori",
+        "icon": "backpack",
+        "items": [
+          { "name": "Valigetta o zaino" },
+          { "name": "Agenda" },
+          { "name": "Penna" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beach",
+    "name": "Mare",
+    "icon": "beach_access",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Spiaggia",
+        "icon": "beach_access",
+        "items": [
+          { "name": "Costume da bagno" },
+          { "name": "Asciugamano" },
+          { "name": "Ciabatte" },
+          { "name": "Borsa mare" }
+        ]
+      },
+      {
+        "name": "Protezione solare",
+        "icon": "wb_sunny",
+        "items": [
+          { "name": "Crema solare" },
+          { "name": "Doposole" },
+          { "name": "Occhiali da sole" },
+          { "name": "Cappello" }
+        ]
+      },
+      {
+        "name": "Mare",
+        "icon": "pool",
+        "items": [
+          { "name": "Maschera e boccaglio" },
+          { "name": "Giochi da spiaggia" },
+          { "name": "Borraccia" }
+        ]
+      },
+      {
+        "name": "Tempo libero",
+        "icon": "sports",
+        "items": [
+          { "name": "Libro" },
+          { "name": "Carte da gioco" },
+          { "name": "Cuffie/Auricolari" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mountain",
+    "name": "Montagna",
+    "icon": "terrain",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Escursione",
+        "icon": "hiking",
+        "items": [
+          { "name": "Scarponi da trekking" },
+          { "name": "Zaino" },
+          { "name": "Bastoncini da trekking" },
+          { "name": "Borraccia" }
+        ]
+      },
+      {
+        "name": "Abbigliamento tecnico",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Giacca impermeabile" },
+          { "name": "Pile o felpa" },
+          { "name": "Pantaloni tecnici" },
+          { "name": "Calze tecniche" }
+        ]
+      },
+      {
+        "name": "Sicurezza",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit pronto soccorso" },
+          { "name": "Torcia" },
+          { "name": "Bussola o GPS" },
+          { "name": "Fischietto emergenza" }
+        ]
+      },
+      {
+        "name": "Accessori",
+        "icon": "backpack",
+        "items": [
+          { "name": "Occhiali da sole" },
+          { "name": "Crema solare" },
+          { "name": "Cappello" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camping",
+    "name": "Campeggio",
+    "icon": "camping",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Riparo",
+        "icon": "home",
+        "items": [
+          { "name": "Tenda" },
+          { "name": "Picchetti" },
+          { "name": "Materassino" },
+          { "name": "Sacco a pelo" }
+        ]
+      },
+      {
+        "name": "Cucina",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Fornello da campeggio" },
+          { "name": "Pentole" },
+          { "name": "Posate" },
+          { "name": "Bicchieri" },
+          { "name": "Cibo" }
+        ]
+      },
+      {
+        "name": "Illuminazione",
+        "icon": "light",
+        "items": [
+          { "name": "Torcia" },
+          { "name": "Lampada da campeggio" },
+          { "name": "Batterie di ricambio" }
+        ]
+      },
+      {
+        "name": "Attrezzatura",
+        "icon": "build",
+        "items": [
+          { "name": "Coltellino multiuso" },
+          { "name": "Corda" },
+          { "name": "Nastro adesivo" },
+          { "name": "Kit riparazioni" }
+        ]
+      },
+      {
+        "name": "Emergenza",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit pronto soccorso" },
+          { "name": "Farmaci personali" },
+          { "name": "Repellente insetti" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "road_trip",
+    "name": "Road Trip",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Auto",
+        "icon": "directions_car",
+        "items": [
+          {"name": "Patente"},
+          {"name": "Documenti auto"},
+          {"name": "Assicurazione auto"},
+          {"name": "Chiavi di riserva"}
+        ]
+      },
+      {
+        "name": "Navigazione",
+        "icon": "navigation",
+        "items": [
+          {"name": "Navigatore GPS"},
+          {"name": "Mappe offline"},
+          {"name": "Supporto telefono auto"}
+        ]
+      },
+      {
+        "name": "Viaggio",
+        "icon": "luggage",
+        "items": [
+          {"name": "Snack"},
+          {"name": "Acqua"},
+          {"name": "Coperta"},
+          {"name": "Cuscino da viaggio"}
+        ]
+      },
+      {
+        "name": "Emergenza",
+        "icon": "warning",
+        "items": [
+          {"name": "Kit pronto soccorso"},
+          {"name": "Triangolo emergenza" },
+          {"name": "Cavi batteria"},
+          {"name": "Torcia"}
+        ]
+      }
+    ]
+  }
+]

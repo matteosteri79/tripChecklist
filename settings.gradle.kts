@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Sport Checklist"
+rootProject.name = "Trip Checklist"
 include(":app")

@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.matteosteri.tripchecklist"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.matteosteri.tripchecklist"
