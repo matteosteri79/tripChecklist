@@ -1,0 +1,300 @@
+[
+
+  {
+    "id": "triathlon",
+    "name": "Triathlon",
+    "icon": "timeline",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Swimming",
+        "icon": "swim",
+        "items": [
+          {"name": "Goggles"},
+          {"name": "Tri Suit"},
+          {"name": "Wetsuit"},
+          {"name": "Swim Cap"},
+          {"name": "Flip-Flops"},
+          {"name": "GPS"},
+          {"name": "Heart rate monitor"}
+        ]
+      },
+      {
+        "name": "Cycling",
+        "icon": "bike",
+        "items": [
+          {"name": "Bicycle"},
+          {"name": "Helmet"},
+          {"name": "Cycling Shoes"},
+          {"name": "Sunglasses"},
+          {"name": "Socks"},
+          {"name": "Water Bottle"},
+          {"name": "Bike Pump"}
+        ]
+      },
+      {
+        "name": "Running",
+        "icon": "run",
+        "items": [
+          {"name": "Running Shoes"},
+          {"name": "Sunglasses"},
+          {"name": "Cap"}
+        ]
+      },
+      {
+        "name": "Transitions",
+        "icon": "timeline",
+        "items": [
+          {"name": "Race Belt"},
+          {"name": "Cycling Shoe Elastics"},
+          {"name": "Talcum powder"},
+          {"name": "Vaseline"}
+        ]
+      },
+      {
+        "name": "Nutrition",
+        "icon": "food",
+        "items": [
+          {"name": "Water/Bottle"},
+          {"name": "Electrolytes"},
+          {"name": "Energy Gels"},
+          {"name": "Energy Bars"},
+          {"name": "Dried Fruit"}
+        ]
+      },
+      {
+        "name": "Pre/Post Race",
+        "icon": "race",
+        "items": [
+          {"name": "Federation License"},
+          {"name": "Spare Clothes"},
+          {"name": "Team Apparel"},
+          {"name": "Shower Kit (Towel/Bathrobe, Soap, Flip-Flops)"}
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "nuoto",
+    "name": "Swimming",
+    "icon": "swim",
+    "visible": true,
+    "categories": [
+      {
+        "name": "General",
+        "icon": "swim",
+        "items": [
+          {"name": "Goggles"},
+          {"name": "Wetsuit/Racing Suit"},
+          {"name": "Swim Cap"},
+          {"name": "Flip-Flops"}
+        ]
+      },
+      {
+        "name": "Nutrition",
+        "icon": "food",
+        "items": [
+          {"name": "Water/Bottle"},
+          {"name": "Electrolytes"},
+          {"name": "Energy Gels"},
+          {"name": "Energy Bars"},
+          {"name": "Dried Fruit"}
+        ]
+      },
+      {
+        "name": "Pre/Post Race",
+        "icon": "race",
+        "items": [
+          {"name": "Federation License"},
+          {"name": "Spare Clothes"},
+          {"name": "Team Apparel"},
+          {"name": "Shower Kit (Towel/Bathrobe, Soap, Flip-Flops)"}
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "ciclismo",
+    "name": "Cycling",
+    "icon": "bike",
+    "visible": true,
+    "categories": [
+      {
+        "name": "General",
+        "icon": "bike",
+        "items": [
+          {"name": "Bicycle"},
+          {"name": "Helmet"},
+          {"name": "Cycling Shoes"},
+          {"name": "Sunglasses"},
+          {"name": "Socks"},
+          {"name": "Water Bottle"},
+          {"name": "Bike Pump"},
+          {"name": "GPS"},
+          {"name": "Heart rate monitor"}
+        ]
+      },
+      {
+        "name": "Nutrition",
+        "icon": "food",
+        "items": [
+          {"name": "Water/Bottle"},
+          {"name": "Electrolytes"},
+          {"name": "Energy Gels"},
+          {"name": "Energy Bars"},
+          {"name": "Dried Fruit"}
+        ]
+      },
+      {
+        "name": "Pre/Post Race",
+        "icon": "race",
+        "items": [
+          {"name": "Federation License"},
+          {"name": "Spare Clothes"},
+          {"name": "Team Apparel"},
+          {"name": "Shower Kit (Towel/Bathrobe, Soap, Flip-Flops)"}
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "corsa",
+    "name": "Running",
+    "icon": "run",
+    "visible": true,
+    "categories": [
+      {
+        "name": "General",
+        "icon": "run",
+        "items": [
+          {"name": "Running Shoes"},
+          {"name": "Sunglasses"},
+          {"name": "Cap"},
+          {"name": "Race Number Safety Pins"},
+          {"name": "GPS"},
+          {"name": "Heart rate monitor"}
+        ]
+      },
+      {
+        "name": "Nutrition",
+        "icon": "food",
+        "items": [
+          {"name": "Water/Bottle"},
+          {"name": "Electrolytes"},
+          {"name": "Energy Gels"},
+          {"name": "Energy Bars"},
+          {"name": "Dried Fruit"}
+        ]
+      },
+      {
+        "name": "Pre/Post Race",
+        "icon": "race",
+        "items": [
+          {"name": "Federation License"},
+          {"name": "Spare Clothes"},
+          {"name": "Team Apparel"},
+          {"name": "Shower Kit (Towel/Bathrobe, Soap, Flip-Flops)"}
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "tennis",
+    "name": "Tennis",
+    "visible": true,
+    "icon": "tennis",
+    "categories": [
+      {
+        "name": "General",
+        "icon": "tennis",
+        "items": [
+          {"name": "Racket"},
+          {"name": "Spare Racket"},
+          {"name": "Tennis Balls"},
+          {"name": "Sports Bag"},
+          {"name": "Shoes"},
+          {"name": "Shirt"},
+          {"name": "Shorts / Skirt"},
+          {"name": "Socks"},
+          {"name": "Cap / Visor"}
+        ]
+      },
+      {
+        "name": "Nutrition",
+        "icon": "food",
+        "items": [
+          {"name": "Water/Bottle"},
+          {"name": "Electrolytes"},
+          {"name": "Energy Gels"},
+          {"name": "Energy Bars"},
+          {"name": "Dried Fruit"}
+        ]
+      },
+      {
+        "name": "Pre/Post Match",
+        "icon": "race",
+        "items": [
+          {"name": "Federation License"},
+          {"name": "Spare Clothes"},
+          {"name": "Team Apparel"},
+          {"name": "Towel"},
+          {"name": "Wristbands"},
+          {"name": "Spare Overgrip"},
+          {"name": "Blister Tape / Bandages"},
+          {"name": "Sunscreen"},
+          {"name": "Complete Change of Clothes After Match"},
+          {"name": "Shower Kit (Towel/Bathrobe, Soap, Flip-Flops)"}
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "calcio",
+    "name": "Soccer",
+    "visible": true,
+    "icon": "soccer",
+    "categories": [
+      {
+        "name": "General",
+        "icon": "soccer",
+        "items": [
+          {"name": "Sports Bag"},
+          {"name": "Soccer Cleats"},
+          {"name": "Shin Guards"},
+          {"name": "Jersey"},
+          {"name": "Shorts"},
+          {"name": "Soccer Socks"}
+        ]
+      },
+      {
+        "name": "Nutrition",
+        "icon": "food",
+        "items": [
+          {"name": "Water/Bottle"},
+          {"name": "Electrolytes"},
+          {"name": "Energy Gels"},
+          {"name": "Energy Bars"},
+          {"name": "Dried Fruit"}
+        ]
+      },
+      {
+        "name": "Pre/Post Match",
+        "icon": "race",
+        "items": [
+          {"name": "Federation License"},
+          {"name": "Spare Clothes"},
+          {"name": "Team Apparel"},
+          {"name": "Shin Guard Tape"},
+          {"name": "Complete Change of Clothes After Match"},
+          {"name": "Shower Kit (Towel/Bathrobe, Soap, Flip-Flops)"}
+        ]
+      }
+    ]
+  }
+
+]

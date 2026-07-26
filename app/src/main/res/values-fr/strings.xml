@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Trip Checklist</string>
+
+    <string name="create_checklist">Créer une checklist</string>
+    <string name="load_checklist">Charger une checklist</string>
+    <string name="new_checklist">Nouvelle checklist</string>
+    <string name="checklist_name">Nom de la checklist</string>
+    <string name="create">Créer</string>
+    <string name="cancel">Annuler</string>
+    <string name="close">Fermer</string>
+    <string name="choose_checklist">Choisir une checklist</string>
+    <string name="welcome_message">Bienvenue dans Trip Checklist</string>
+    <string name="empty_home_message">Créez votre première checklist avec le bouton en bas</string>
+    <string name="your_checklists">Vos checklists</string>
+    <string name="delete">Supprimer</string>
+    <string name="add_category">Ajouter une catégorie</string>
+    <string name="rename_checklist">Renommer la checklist</string>
+    <string name="reset_checklist">Réinitialiser la checklist</string>
+    <string name="selected_items_count">%1$d / %2$d objets sélectionnés</string>
+    <string name="completed">Terminé</string>
+    <string name="new_category">Nouvelle catégorie</string>
+    <string name="name">Nom</string>
+    <string name="new_item">Nouvel élément</string>
+    <string name="add">Ajouter</string>
+    <string name="save">Enregistrer</string>
+    <string name="no_categories">Aucune catégorie</string>
+    <string name="create_category">Créer une catégorie</string>
+    <string name="home">Accueil</string>
+    <string name="header">En-tête</string>
+    <string name="menu">Menu</string>
+    <string name="info">Informations</string>
+    <string name="info_app">Informations sur l\'application</string>
+    <string name="version_label">Version : %1$s</string>
+    <string name="app_description">WebApp développée pour préparer votre prochaine course et ne rien oublier.\nBonne chance et bonne course !</string>
+    <string name="contact_support">Contactez-nous pour assistance ou commentaires :</string>
+    <string name="write_us">Écrivez-nous</string>
+    <string name="language">Langue</string>
+    <string name="choose_language">Choisir la langue</string>
+    <string name="system_language">Langue de l\'appareil</string>
+    <string name="italian">Italien</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="spanish">Espagnol</string>
+    <string name="german">Allemand</string>
+    <string name="theme">Thème</string>
+    <string name="choose_theme">Choisir le thème</string>
+</resources>

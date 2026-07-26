@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Trip Checklist</string>
+
+    <string name="create_checklist">Checkliste erstellen</string>
+    <string name="load_checklist">Checkliste laden</string>
+    <string name="new_checklist">Neue Checkliste</string>
+    <string name="checklist_name">Name der Checkliste</string>
+    <string name="create">Erstellen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="close">Schließen</string>
+    <string name="choose_checklist">Checkliste auswählen</string>
+    <string name="welcome_message">Willkommen bei Trip Checklist</string>
+    <string name="empty_home_message">Erstelle deine erste Checkliste über die Schaltfläche unten</string>
+    <string name="your_checklists">Deine Checklisten</string>
+    <string name="delete">Löschen</string>
+    <string name="add_category">Kategorie hinzufügen</string>
+    <string name="rename_checklist">Checkliste umbenennen</string>
+    <string name="reset_checklist">Checkliste zurücksetzen</string>
+    <string name="selected_items_count">%1$d / %2$d Elemente ausgewählt</string>
+    <string name="completed">Abgeschlossen</string>
+    <string name="new_category">Neue Kategorie</string>
+    <string name="name">Name</string>
+    <string name="new_item">Neues Element</string>
+    <string name="add">Hinzufügen</string>
+    <string name="save">Speichern</string>
+    <string name="no_categories">Keine Kategorien</string>
+    <string name="create_category">Kategorie erstellen</string>
+    <string name="home">Startseite</string>
+    <string name="header">Kopfzeile</string>
+    <string name="menu">Menü</string>
+    <string name="info">Informationen</string>
+    <string name="info_app">App-Informationen</string>
+    <string name="version_label">Version: %1$s</string>
+    <string name="app_description">WebApp entwickelt, um deinen nächsten Wettkampf vorzubereiten und nichts zu vergessen.\nViel Glück und viel Erfolg beim Rennen!</string>
+    <string name="contact_support">Kontaktiere uns für Support oder Feedback:</string>
+    <string name="write_us">Schreib uns</string>
+    <string name="language">Sprache</string>
+    <string name="choose_language">Sprache auswählen</string>
+    <string name="system_language">Gerätesprache</string>
+    <string name="italian">Italienisch</string>
+    <string name="english">Englisch</string>
+    <string name="french">Französisch</string>
+    <string name="spanish">Spanisch</string>
+    <string name="german">Deutsch</string>
+    <string name="theme">Thema</string>
+    <string name="choose_theme">Thema auswählen</string>
+</resources>

@@ -1,0 +1,53 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Dalvik / ART
+*.dex
+
+# Java/Kotlin
+*.class
+.kotlin/
+
+# Gradle
+.gradle/
+build/
+
+# Local config
+local.properties
+
+# Logs
+*.log
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore (MAI committare)
+*.jks
+*.keystore
+
+# Native build
+.externalNativeBuild/
+.cxx/
+obj/
+
+# Firebase (dipende dal progetto)
+google-services.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Fastlane (se usato)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Temp
+*.tmp
+*.temp

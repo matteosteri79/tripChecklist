@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Trip Checklist</string>
+
+    <string name="create_checklist">Create checklist</string>
+    <string name="load_checklist">Load checklist</string>
+    <string name="new_checklist">New checklist</string>
+    <string name="checklist_name">Checklist name</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="choose_checklist">Choose a checklist</string>
+    <string name="welcome_message">Welcome to Trip Checklist</string>
+    <string name="empty_home_message">Create your first checklist from the button below</string>
+    <string name="your_checklists">Your checklists</string>
+    <string name="delete">Delete</string>
+    <string name="add_category">Add category</string>
+    <string name="rename_checklist">Rename checklist</string>
+    <string name="reset_checklist">Reset checklist</string>
+    <string name="selected_items_count">%1$d / %2$d selected items</string>
+    <string name="completed">Completed</string>
+    <string name="new_category">New category</string>
+    <string name="name">Name</string>
+    <string name="new_item">New item</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="no_categories">No categories</string>
+    <string name="create_category">Create category</string>
+    <string name="home">Home</string>
+    <string name="header">Header</string>
+    <string name="menu">Menu</string>
+    <string name="info">Info</string>
+    <string name="info_app">App info</string>
+    <string name="version_label">Version: %1$s</string>
+    <string name="app_description">Web app developed to help you prepare for your next race and avoid forgetting anything.\nGood luck and have a great race!</string>
+    <string name="contact_support">Contact us for support or feedback:</string>
+    <string name="write_us">Write us</string>
+    <string name="language">Language</string>
+    <string name="choose_language">Choose language</string>
+    <string name="system_language">Device language</string>
+    <string name="italian">Italian</string>
+    <string name="english">English</string>
+    <string name="french">Francese</string>
+    <string name="spanish">Spagnolo</string>
+    <string name="german">Tedesco</string>
+    <string name="theme">Theme</string>
+    <string name="choose_theme">Choose theme</string>
+</resources>

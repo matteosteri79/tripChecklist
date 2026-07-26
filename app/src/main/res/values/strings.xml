@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Trip Checklist</string>
+
+    <string name="create_checklist">Crea checklist</string>
+    <string name="load_checklist">Carica checklist</string>
+    <string name="new_checklist">Nuova checklist</string>
+    <string name="checklist_name">Nome checklist</string>
+    <string name="create">Crea</string>
+    <string name="cancel">Annulla</string>
+    <string name="close">Chiudi</string>
+    <string name="choose_checklist">Scegli una checklist</string>
+    <string name="welcome_message">Benvenuto in Trip Checklist</string>
+    <string name="empty_home_message">Crea la tua prima checklist dal pulsante in basso</string>
+    <string name="your_checklists">Le tue checklist</string>
+    <string name="delete">Elimina</string>
+    <string name="add_category">Aggiungi categoria</string>
+    <string name="rename_checklist">Rinomina checklist</string>
+    <string name="reset_checklist">Reset checklist</string>
+    <string name="selected_items_count">%1$d / %2$d oggetti selezionati</string>
+    <string name="completed">Completato</string>
+    <string name="new_category">Nuova categoria</string>
+    <string name="name">Nome</string>
+    <string name="new_item">Nuovo item</string>
+    <string name="add">Aggiungi</string>
+    <string name="save">Salva</string>
+    <string name="no_categories">Nessuna categoria</string>
+    <string name="create_category">Crea categoria</string>
+    <string name="home">Home</string>
+    <string name="header">Header</string>
+    <string name="menu">Menu</string>
+    <string name="info">Info</string>
+    <string name="info_app">Info App</string>
+    <string name="version_label">Versione: %1$s</string>
+    <string name="app_description">WebApp sviluppata per preparare il tuo prossima viaggio e non dimenticarti nulla.\nBuon viaggio e divertiti!</string>
+    <string name="contact_support">Contattaci per supporto o feedback:</string>
+    <string name="write_us">Scrivici</string>
+    <string name="language">Lingua</string>
+    <string name="choose_language">Scegli lingua</string>
+    <string name="system_language">Lingua dispositivo</string>
+    <string name="italian">Italiano</string>
+    <string name="english">Inglese</string>
+    <string name="french">Francese</string>
+    <string name="spanish">Spagnolo</string>
+    <string name="german">Tedesco</string>
+    <string name="theme">Tema</string>
+    <string name="choose_theme">Scegli tema</string>
+</resources>
