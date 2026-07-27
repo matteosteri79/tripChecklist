@@ -9,6 +9,8 @@ object AppConfig {
 
     const val SUPPORT_EMAIL = "matteosteri+tripchecklist@gmail.com"
 
+    const val DEFAULT_THEME = "blue"
+
     // Identifica il gruppo di template da caricare
     const val TEMPLATE_SET = "trip"
 

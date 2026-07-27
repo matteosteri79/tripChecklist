@@ -15,7 +15,7 @@ object ThemeManager {
 
         val themeId = prefs.getString(
             KEY_THEME,
-            AppTheme.BLUE.id
+            AppConfig.DEFAULT_THEME
         )
 
         return AppTheme.fromId(themeId)
