@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Checklist" parent="android:style/Theme.Material.Light.NoActionBar">
+    <style name="Theme.TripChecklist" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:windowLightStatusBar">true</item>
     </style>
-    <style name="Theme.Checklist.Splash" parent="Theme.SplashScreen">
+    <style name="Theme.TripChecklist.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen</item>
-        <item name="postSplashScreenTheme">@style/Theme.Checklist</item>
+        <item name="postSplashScreenTheme">@style/Theme.TripChecklist</item>
     </style>
 </resources>
