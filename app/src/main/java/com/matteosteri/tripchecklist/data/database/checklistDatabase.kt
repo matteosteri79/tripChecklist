@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.matteosteri.tripchecklist.config.AppConfig
 
 @Database(
     entities = [
@@ -26,7 +27,7 @@ abstract class AppDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
-                    "trip_checklist_db"
+                    AppConfig.DATABASE_NAME
                 )
                     .fallbackToDestructiveMigration()
                     .build()

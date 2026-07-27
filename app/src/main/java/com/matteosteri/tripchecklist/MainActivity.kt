@@ -39,6 +39,7 @@ import com.matteosteri.tripchecklist.data.preset.getVisiblePresets
 import com.matteosteri.tripchecklist.theme.AppTheme
 import com.matteosteri.tripchecklist.theme.ThemeManager
 import androidx.activity.enableEdgeToEdge
+import com.matteosteri.tripchecklist.config.AppConfig
 import com.matteosteri.tripchecklist.data.database.CategoryEntity
 import com.matteosteri.tripchecklist.data.database.ChecklistEntity
 import com.matteosteri.tripchecklist.utils.LanguageManager
@@ -1289,7 +1290,7 @@ fun AppHeader() {
                         verticalAlignment = Alignment.CenterVertically,
                         modifier = Modifier.clickable {
                             val intent = Intent(Intent.ACTION_SENDTO).apply {
-                                data = Uri.parse("mailto:matteosteri+tripchecklist@gmail.com")
+                                data = Uri.parse("mailto:${AppConfig.SUPPORT_EMAIL}")
                             }
                             context.startActivity(intent)
                         }

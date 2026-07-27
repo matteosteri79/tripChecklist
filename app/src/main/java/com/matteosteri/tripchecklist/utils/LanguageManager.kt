@@ -2,6 +2,7 @@ package com.matteosteri.tripchecklist.utils
 
 import android.content.Context
 import android.content.res.Configuration
+import com.matteosteri.tripchecklist.config.AppConfig
 import java.util.Locale
 
 object LanguageManager {
@@ -11,7 +12,7 @@ object LanguageManager {
     const val LANGUAGE_FRENCH = "fr"
     const val LANGUAGE_SPANISH = "es"
     const val LANGUAGE_GERMAN = "de"
-    private const val PREFS_NAME = "trip_checklist_preferences"
+    private const val PREFS_NAME = AppConfig.PREFS_NAME
     private const val KEY_LANGUAGE = "language"
 
     fun getLanguage(context: Context): String {

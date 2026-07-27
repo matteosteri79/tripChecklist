@@ -1,15 +1,15 @@
 package com.matteosteri.tripchecklist.theme
 
 import android.content.Context
+import com.matteosteri.tripchecklist.config.AppConfig
 
 object ThemeManager {
 
-    private const val PREFS_NAME = "trip_checklist_preferences"
     private const val KEY_THEME = "theme"
 
     fun getTheme(context: Context): AppTheme {
         val prefs = context.applicationContext.getSharedPreferences(
-            PREFS_NAME,
+            AppConfig.PREFS_NAME,
             Context.MODE_PRIVATE
         )
 
@@ -26,7 +26,7 @@ object ThemeManager {
         theme: AppTheme
     ) {
         val prefs = context.applicationContext.getSharedPreferences(
-            PREFS_NAME,
+            AppConfig.PREFS_NAME,
             Context.MODE_PRIVATE
         )
 
