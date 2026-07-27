@@ -356,7 +356,7 @@ fun EmptyState() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(R.drawable.sportchecklist_logo),
+            painter = painterResource(R.drawable.logo_checklist),
             contentDescription = null,
             modifier = Modifier.size(220.dp)
         )
@@ -872,7 +872,7 @@ fun AppHeader() {
 
         // LOGO
         Image(
-            painter = painterResource(R.drawable.sportchecklist_header),
+            painter = painterResource(R.drawable.logo_header),
             contentDescription = stringResource(R.string.header),
             modifier = Modifier
                 .height(60.dp)
@@ -1266,7 +1266,7 @@ fun AppHeader() {
                 ) {
 
                     Image(
-                        painter = painterResource(R.drawable.sportchecklist_logo),
+                        painter = painterResource(R.drawable.logo_checklist),
                         contentDescription = null,
                         modifier = Modifier.size(120.dp)
                     )

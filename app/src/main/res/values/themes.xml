@@ -5,7 +5,7 @@
     </style>
     <style name="Theme.Checklist.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/sportchecklist_iconscreen</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen</item>
         <item name="postSplashScreenTheme">@style/Theme.Checklist</item>
     </style>
 </resources>

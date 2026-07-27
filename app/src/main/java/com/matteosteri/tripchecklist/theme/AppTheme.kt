@@ -30,7 +30,7 @@ enum class AppTheme(
 
     companion object {
         fun fromId(id: String?): AppTheme {
-            return entries.firstOrNull { it.id == id } ?: GREEN
+            return entries.firstOrNull { it.id == id } ?: BLUE
         }
     }
 }

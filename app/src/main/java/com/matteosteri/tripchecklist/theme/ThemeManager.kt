@@ -4,7 +4,7 @@ import android.content.Context
 
 object ThemeManager {
 
-    private const val PREFS_NAME = "sport_checklist_preferences"
+    private const val PREFS_NAME = "trip_checklist_preferences"
     private const val KEY_THEME = "theme"
 
     fun getTheme(context: Context): AppTheme {
@@ -15,7 +15,7 @@ object ThemeManager {
 
         val themeId = prefs.getString(
             KEY_THEME,
-            AppTheme.GREEN.id
+            AppTheme.BLUE.id
         )
 
         return AppTheme.fromId(themeId)

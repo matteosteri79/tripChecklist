@@ -11,7 +11,7 @@ object LanguageManager {
     const val LANGUAGE_FRENCH = "fr"
     const val LANGUAGE_SPANISH = "es"
     const val LANGUAGE_GERMAN = "de"
-    private const val PREFS_NAME = "sport_checklist_preferences"
+    private const val PREFS_NAME = "trip_checklist_preferences"
     private const val KEY_LANGUAGE = "language"
 
     fun getLanguage(context: Context): String {
