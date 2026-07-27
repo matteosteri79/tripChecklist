@@ -1,318 +1,449 @@
 [
   {
     "id": "vacation",
-    "name": "Vacanza",
+    "name": "Vacaciones",
     "icon": "flight",
     "visible": true,
     "categories": [
       {
-        "name": "Documenti",
+        "name": "Documentos",
         "icon": "description",
         "items": [
-          { "name": "Carta d'identità o passaporto" },
-          { "name": "Biglietti e prenotazioni" },
-          { "name": "Patente di guida" },
-          { "name": "Assicurazione viaggio" }
+          { "name": "Documento de identidad o pasaporte" },
+          { "name": "Billetes y reservas" },
+          { "name": "Permiso de conducir" },
+          { "name": "Seguro de viaje" }
         ]
       },
       {
-        "name": "Abbigliamento",
+        "name": "Ropa",
         "icon": "checkroom",
         "items": [
-          { "name": "Biancheria" },
-          { "name": "Vestiti" },
-          { "name": "Scarpe" },
-          { "name": "Pigiama" }
+          { "name": "Ropa interior" },
+          { "name": "Ropa" },
+          { "name": "Zapatos" },
+          { "name": "Pijama" }
         ]
       },
       {
-        "name": "Igiene personale",
+        "name": "Higiene personal",
         "icon": "clean_hands",
         "items": [
-          { "name": "Spazzolino" },
-          { "name": "Dentifricio" },
-          { "name": "Shampoo" },
-          { "name": "Deodorante" }
+          { "name": "Cepillo de dientes" },
+          { "name": "Pasta de dientes" },
+          { "name": "Champú" },
+          { "name": "Desodorante" }
         ]
       },
       {
-        "name": "Elettronica",
+        "name": "Electrónica",
         "icon": "devices",
         "items": [
-          { "name": "Telefono" },
-          { "name": "Caricabatterie" },
-          { "name": "Power bank" },
-          { "name": "Cuffie/auricolari" }
+          { "name": "Teléfono" },
+          { "name": "Cargador" },
+          { "name": "Batería externa" },
+          { "name": "Auriculares" }
         ]
       },
       {
-        "name": "Farmaci",
+        "name": "Medicamentos",
         "icon": "medical_services",
         "items": [
-          { "name": "Farmaci personali" },
-          { "name": "Cerotti" },
-          { "name": "Antidolorifico" }
+          { "name": "Medicamentos personales" },
+          { "name": "Tiritas" },
+          { "name": "Analgésico" }
         ]
       },
       {
-        "name": "Accessori",
+        "name": "Accesorios",
         "icon": "backpack",
         "items": [
-          { "name": "Zaino" },
-          { "name": "Occhiali da sole" },
-          { "name": "Borraccia" }
+          { "name": "Mochila" },
+          { "name": "Gafas de sol" },
+          { "name": "Botella de agua" }
         ]
       }
     ]
   },
   {
     "id": "business_trip",
-    "name": "Viaggio di lavoro",
+    "name": "Viaje de negocios",
     "icon": "work",
     "visible": true,
     "categories": [
       {
-        "name": "Documenti",
+        "name": "Documentos",
         "icon": "description",
         "items": [
-          { "name": "Carta d'identità o passaporto" },
-          { "name": "Biglietti e prenotazioni" },
-          { "name": "Documenti di lavoro" }
+          { "name": "Documento de identidad o pasaporte" },
+          { "name": "Billetes y reservas" },
+          { "name": "Documentos de trabajo" }
         ]
       },
       {
-        "name": "Lavoro",
+        "name": "Trabajo",
         "icon": "work",
         "items": [
-          { "name": "Computer portatile" },
-          { "name": "Caricabatterie PC" },
-          { "name": "Documenti di lavoro" },
-          { "name": "Materiale per riunioni" }
+          { "name": "Ordenador portátil" },
+          { "name": "Cargador del portátil" },
+          { "name": "Documentos de trabajo" },
+          { "name": "Material para reuniones" }
         ]
       },
       {
-        "name": "Elettronica",
+        "name": "Electrónica",
         "icon": "devices",
         "items": [
-          { "name": "Telefono" },
-          { "name": "Caricabatterie" },
-          { "name": "Adattatore universale" },
-          { "name": "Cuffie/auricolari" }
+          { "name": "Teléfono" },
+          { "name": "Cargador" },
+          { "name": "Adaptador universal" },
+          { "name": "Auriculares" }
         ]
       },
       {
-        "name": "Abbigliamento",
+        "name": "Ropa",
         "icon": "checkroom",
         "items": [
-          { "name": "Abito o vestiti da lavoro" },
-          { "name": "Scarpe eleganti" },
-          { "name": "Cambio personale" }
+          { "name": "Traje o ropa de trabajo" },
+          { "name": "Zapatos elegantes" },
+          { "name": "Cambio personal" }
         ]
       },
       {
-        "name": "Accessori",
+        "name": "Accesorios",
         "icon": "backpack",
         "items": [
-          { "name": "Valigetta o zaino" },
+          { "name": "Maletín o mochila" },
           { "name": "Agenda" },
-          { "name": "Penna" }
+          { "name": "Bolígrafo" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camper_van",
+    "name": "Autocaravana / Van",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documentos y viaje",
+        "icon": "description",
+        "items": [
+          { "name": "Permiso de conducir" },
+          { "name": "Documentos del vehículo" },
+          { "name": "Seguro" },
+          { "name": "Mapas e itinerario" }
+        ]
+      },
+      {
+        "name": "Vehículo",
+        "icon": "directions_car",
+        "items": [
+          { "name": "Llaves de repuesto" },
+          { "name": "Cable de alimentación externa" },
+          { "name": "Adaptadores eléctricos" },
+          { "name": "Nivelador de estacionamiento" },
+          { "name": "Calzos para ruedas" }
+        ]
+      },
+      {
+        "name": "Zona habitable",
+        "icon": "home",
+        "items": [
+          { "name": "Sábanas" },
+          { "name": "Mantas" },
+          { "name": "Almohadas" },
+          { "name": "Toallas" }
+        ]
+      },
+      {
+        "name": "Cocina",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Ollas y sartenes" },
+          { "name": "Platos y cubiertos" },
+          { "name": "Vasos" },
+          { "name": "Cafetera" },
+          { "name": "Provisiones de comida" }
+        ]
+      },
+      {
+        "name": "Servicios y autonomía",
+        "icon": "build",
+        "items": [
+          { "name": "Depósito de agua" },
+          { "name": "Manguera de agua" },
+          { "name": "Cable eléctrico" },
+          { "name": "Adaptadores de enchufe" },
+          { "name": "Productos para WC químico" }
+        ]
+      },
+      {
+        "name": "Seguridad",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit de primeros auxilios" },
+          { "name": "Extintor" },
+          { "name": "Linterna" },
+          { "name": "Kit de reparación" }
         ]
       }
     ]
   },
   {
     "id": "beach",
-    "name": "Mare",
+    "name": "Playa",
     "icon": "beach_access",
     "visible": true,
     "categories": [
       {
-        "name": "Spiaggia",
+        "name": "Playa",
         "icon": "beach_access",
         "items": [
-          { "name": "Costume da bagno" },
-          { "name": "Asciugamano" },
-          { "name": "Ciabatte" },
-          { "name": "Borsa mare" }
+          { "name": "Traje de baño" },
+          { "name": "Toalla" },
+          { "name": "Chanclas" },
+          { "name": "Bolsa de playa" }
         ]
       },
       {
-        "name": "Protezione solare",
+        "name": "Protección solar",
         "icon": "wb_sunny",
         "items": [
-          { "name": "Crema solare" },
-          { "name": "Doposole" },
-          { "name": "Occhiali da sole" },
-          { "name": "Cappello" }
+          { "name": "Crema solar" },
+          { "name": "After sun" },
+          { "name": "Gafas de sol" },
+          { "name": "Sombrero" }
         ]
       },
       {
-        "name": "Mare",
+        "name": "Mar",
         "icon": "pool",
         "items": [
-          { "name": "Maschera e boccaglio" },
-          { "name": "Giochi da spiaggia" },
-          { "name": "Borraccia" }
+          { "name": "Máscara y tubo de snorkel" },
+          { "name": "Juegos de playa" },
+          { "name": "Botella de agua" }
         ]
       },
       {
-        "name": "Tempo libero",
+        "name": "Tiempo libre",
         "icon": "sports",
         "items": [
           { "name": "Libro" },
-          { "name": "Carte da gioco" },
-          { "name": "Cuffie/Auricolari" }
+          { "name": "Cartas de juego" },
+          { "name": "Auriculares" }
         ]
       }
     ]
   },
   {
     "id": "mountain",
-    "name": "Montagna",
+    "name": "Montaña",
     "icon": "terrain",
     "visible": true,
     "categories": [
       {
-        "name": "Escursione",
+        "name": "Excursión",
         "icon": "hiking",
         "items": [
-          { "name": "Scarponi da trekking" },
-          { "name": "Zaino" },
-          { "name": "Bastoncini da trekking" },
-          { "name": "Borraccia" }
+          { "name": "Botas de trekking" },
+          { "name": "Mochila" },
+          { "name": "Bastones de trekking" },
+          { "name": "Botella de agua" }
         ]
       },
       {
-        "name": "Abbigliamento tecnico",
+        "name": "Ropa técnica",
         "icon": "checkroom",
         "items": [
-          { "name": "Giacca impermeabile" },
-          { "name": "Pile o felpa" },
-          { "name": "Pantaloni tecnici" },
-          { "name": "Calze tecniche" }
+          { "name": "Chaqueta impermeable" },
+          { "name": "Forro polar o sudadera" },
+          { "name": "Pantalones técnicos" },
+          { "name": "Calcetines técnicos" }
         ]
       },
       {
-        "name": "Sicurezza",
+        "name": "Seguridad",
         "icon": "health_and_safety",
         "items": [
-          { "name": "Kit pronto soccorso" },
-          { "name": "Torcia" },
-          { "name": "Bussola o GPS" },
-          { "name": "Fischietto emergenza" }
+          { "name": "Kit de primeros auxilios" },
+          { "name": "Linterna" },
+          { "name": "Brújula o GPS" },
+          { "name": "Silbato de emergencia" }
         ]
       },
       {
-        "name": "Accessori",
+        "name": "Accesorios",
         "icon": "backpack",
         "items": [
-          { "name": "Occhiali da sole" },
-          { "name": "Crema solare" },
-          { "name": "Cappello" }
+          { "name": "Gafas de sol" },
+          { "name": "Crema solar" },
+          { "name": "Sombrero" }
         ]
       }
     ]
   },
   {
     "id": "camping",
-    "name": "Campeggio",
+    "name": "Camping",
     "icon": "camping",
     "visible": true,
     "categories": [
       {
-        "name": "Riparo",
+        "name": "Refugio",
         "icon": "home",
         "items": [
-          { "name": "Tenda" },
-          { "name": "Picchetti" },
-          { "name": "Materassino" },
-          { "name": "Sacco a pelo" }
+          { "name": "Tienda de campaña" },
+          { "name": "Clavijas de tienda" },
+          { "name": "Esterilla" },
+          { "name": "Saco de dormir" }
         ]
       },
       {
-        "name": "Cucina",
+        "name": "Cocina",
         "icon": "restaurant",
         "items": [
-          { "name": "Fornello da campeggio" },
-          { "name": "Pentole" },
-          { "name": "Posate" },
-          { "name": "Bicchieri" },
-          { "name": "Cibo" }
+          { "name": "Hornillo de camping" },
+          { "name": "Ollas" },
+          { "name": "Cubiertos" },
+          { "name": "Vasos" },
+          { "name": "Comida" }
         ]
       },
       {
-        "name": "Illuminazione",
+        "name": "Iluminación",
         "icon": "light",
         "items": [
-          { "name": "Torcia" },
-          { "name": "Lampada da campeggio" },
-          { "name": "Batterie di ricambio" }
+          { "name": "Linterna" },
+          { "name": "Lámpara de camping" },
+          { "name": "Baterías de repuesto" }
         ]
       },
       {
-        "name": "Attrezzatura",
+        "name": "Equipamiento",
         "icon": "build",
         "items": [
-          { "name": "Coltellino multiuso" },
-          { "name": "Corda" },
-          { "name": "Nastro adesivo" },
-          { "name": "Kit riparazioni" }
+          { "name": "Navaja multiusos" },
+          { "name": "Cuerda" },
+          { "name": "Cinta adhesiva" },
+          { "name": "Kit de reparación" }
         ]
       },
       {
-        "name": "Emergenza",
+        "name": "Emergencia",
         "icon": "health_and_safety",
         "items": [
-          { "name": "Kit pronto soccorso" },
-          { "name": "Farmaci personali" },
-          { "name": "Repellente insetti" }
+          { "name": "Kit de primeros auxilios" },
+          { "name": "Medicamentos personales" },
+          { "name": "Repelente de insectos" }
         ]
       }
     ]
   },
   {
     "id": "road_trip",
-    "name": "Road Trip",
+    "name": "Viaje por carretera",
     "icon": "directions_car",
     "visible": true,
     "categories": [
       {
-        "name": "Auto",
+        "name": "Coche",
         "icon": "directions_car",
         "items": [
-          {"name": "Patente"},
-          {"name": "Documenti auto"},
-          {"name": "Assicurazione auto"},
-          {"name": "Chiavi di riserva"}
+          { "name": "Permiso de conducir" },
+          { "name": "Documentos del coche" },
+          { "name": "Seguro del coche" },
+          { "name": "Llaves de repuesto" }
         ]
       },
       {
-        "name": "Navigazione",
+        "name": "Navegación",
         "icon": "navigation",
         "items": [
-          {"name": "Navigatore GPS"},
-          {"name": "Mappe offline"},
-          {"name": "Supporto telefono auto"}
+          { "name": "Navegador GPS" },
+          { "name": "Mapas sin conexión" },
+          { "name": "Soporte para teléfono del coche" }
         ]
       },
       {
-        "name": "Viaggio",
+        "name": "Viaje",
         "icon": "luggage",
         "items": [
-          {"name": "Snack"},
-          {"name": "Acqua"},
-          {"name": "Coperta"},
-          {"name": "Cuscino da viaggio"}
+          { "name": "Snacks" },
+          { "name": "Agua" },
+          { "name": "Manta" },
+          { "name": "Almohada de viaje" }
         ]
       },
       {
-        "name": "Emergenza",
+        "name": "Emergencia",
         "icon": "warning",
         "items": [
-          {"name": "Kit pronto soccorso"},
-          {"name": "Triangolo emergenza" },
-          {"name": "Cavi batteria"},
-          {"name": "Torcia"}
+          { "name": "Kit de primeros auxilios" },
+          { "name": "Triángulo de emergencia" },
+          { "name": "Cables de batería" },
+          { "name": "Linterna" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ski",
+    "name": "Esquí y nieve",
+    "icon": "ac_unit",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Equipo de esquí",
+        "icon": "sports",
+        "items": [
+          { "name": "Esquís o snowboard" },
+          { "name": "Botas de esquí" },
+          { "name": "Bastones" },
+          { "name": "Casco" },
+          { "name": "Gafas de esquí" }
+        ]
+      },
+      {
+        "name": "Ropa técnica",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Chaqueta de esquí" },
+          { "name": "Pantalones de esquí" },
+          { "name": "Ropa interior térmica" },
+          { "name": "Guantes" },
+          { "name": "Calcetines térmicos" }
+        ]
+      },
+      {
+        "name": "Protección",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Crema solar" },
+          { "name": "Bálsamo labial" },
+          { "name": "Gafas de sol" },
+          { "name": "Kit de primeros auxilios" }
+        ]
+      },
+      {
+        "name": "Viaje",
+        "icon": "luggage",
+        "items": [
+          { "name": "Documentos" },
+          { "name": "Forfait de esquí" },
+          { "name": "Reservas" },
+          { "name": "Cargadores" }
+        ]
+      },
+      {
+        "name": "Tiempo libre",
+        "icon": "sports",
+        "items": [
+          { "name": "Traje de baño para piscina/spa" },
+          { "name": "Chanclas" },
+          { "name": "Ropa cómoda" },
+          { "name": "Libro" }
         ]
       }
     ]

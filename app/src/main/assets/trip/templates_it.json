@@ -121,6 +121,77 @@
     ]
   },
   {
+    "id": "camper_van",
+    "name": "Camper / Van",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documenti e viaggio",
+        "icon": "description",
+        "items": [
+          { "name": "Patente" },
+          { "name": "Documenti del veicolo" },
+          { "name": "Assicurazione" },
+          { "name": "Mappe e itinerario" }
+        ]
+      },
+      {
+        "name": "Mezzo",
+        "icon": "directions_car",
+        "items": [
+          { "name": "Chiavi di riserva" },
+          { "name": "Cavo alimentazione esterna" },
+          { "name": "Adattatori elettrici" },
+          { "name": "Livella per parcheggio" },
+          { "name": "Cunei ruote" }
+        ]
+      },
+      {
+        "name": "Abitacolo",
+        "icon": "home",
+        "items": [
+          { "name": "Lenzuola" },
+          { "name": "Coperte" },
+          { "name": "Cuscini" },
+          { "name": "Asciugamani" }
+        ]
+      },
+      {
+        "name": "Cucina",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Pentole e padelle" },
+          { "name": "Piatti e posate" },
+          { "name": "Bicchieri" },
+          { "name": "Caffettiera" },
+          { "name": "Scorte alimentari" }
+        ]
+      },
+      {
+        "name": "Servizi e autonomia",
+        "icon": "build",
+        "items": [
+          { "name": "Tanica acqua" },
+          { "name": "Tubo acqua" },
+          { "name": "Cavo elettrico" },
+          { "name": "Adattatori prese" },
+          { "name": "Prodotti WC chimico" }
+        ]
+      },
+      {
+        "name": "Sicurezza",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit pronto soccorso" },
+          { "name": "Estintore" },
+          { "name": "Torcia" },
+          { "name": "Kit riparazioni" }
+        ]
+      }
+    ]
+  },
+  {
     "id": "beach",
     "name": "Mare",
     "icon": "beach_access",
@@ -313,6 +384,66 @@
           {"name": "Triangolo emergenza" },
           {"name": "Cavi batteria"},
           {"name": "Torcia"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ski",
+    "name": "Sci e neve",
+    "icon": "ac_unit",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Attrezzatura sci",
+        "icon": "sports",
+        "items": [
+          { "name": "Sci o snowboard" },
+          { "name": "Scarponi da sci" },
+          { "name": "Bastoncini" },
+          { "name": "Casco" },
+          { "name": "Maschera da sci" }
+        ]
+      },
+      {
+        "name": "Abbigliamento tecnico",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Giacca da sci" },
+          { "name": "Pantaloni da sci" },
+          { "name": "Intimo termico" },
+          { "name": "Guanti" },
+          { "name": "Calze termiche" }
+        ]
+      },
+      {
+        "name": "Protezione",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Crema solare" },
+          { "name": "Burro cacao" },
+          { "name": "Occhiali da sole" },
+          { "name": "Kit pronto soccorso" }
+        ]
+      },
+      {
+        "name": "Viaggio",
+        "icon": "luggage",
+        "items": [
+          { "name": "Documenti" },
+          { "name": "Skipass" },
+          { "name": "Prenotazioni" },
+          { "name": "Caricabatterie" }
+        ]
+      },
+      {
+        "name": "Tempo libero",
+        "icon": "sports",
+        "items": [
+          { "name": "Costume per piscina/spa" },
+          { "name": "Ciabatte" },
+          { "name": "Abbigliamento comodo" },
+          { "name": "Libro" }
         ]
       }
     ]
