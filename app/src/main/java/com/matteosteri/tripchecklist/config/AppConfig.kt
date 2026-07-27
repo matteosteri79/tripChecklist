@@ -2,7 +2,7 @@ package com.matteosteri.tripchecklist.config
 
 object AppConfig {
 
-    const val APP_NAME = "Trip Checklist"
+    //const val APP_NAME = "Trip Checklist"
 
     // Database
     const val DATABASE_NAME = "trip_checklist_db"

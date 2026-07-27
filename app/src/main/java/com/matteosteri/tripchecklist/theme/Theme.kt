@@ -9,7 +9,6 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.LocalView
 
 private val GreenLightColorScheme = lightColorScheme(
     primary = GreenDark,
@@ -176,7 +175,6 @@ fun ChecklistTheme(
             }
         }
     }
-    val view = LocalView.current
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
