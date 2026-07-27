@@ -6,7 +6,7 @@ enum class AppTheme(
 ) {
     GREEN(
         id = "green",
-        displayName = "Sport Green"
+        displayName = "Forest Green"
     ),
     RED(
         id = "red",

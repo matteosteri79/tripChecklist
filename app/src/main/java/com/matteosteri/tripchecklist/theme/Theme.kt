@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 
-private val LightColorScheme = lightColorScheme(
+private val GreenLightColorScheme = lightColorScheme(
     primary = GreenDark,
     secondary = GreenLight,
     tertiary = Green,
@@ -25,7 +25,7 @@ private val LightColorScheme = lightColorScheme(
     onSurface = Black
 )
 
-private val DarkColorScheme = darkColorScheme(
+private val GreenDarkColorScheme = darkColorScheme(
     primary = GreenLight,
     secondary = Green,
     tertiary = GreenDark,
@@ -159,8 +159,8 @@ fun ChecklistTheme(
         else -> {
             when (selectedTheme) {
                 AppTheme.GREEN ->
-                    if (darkTheme) DarkColorScheme
-                    else LightColorScheme
+                    if (darkTheme) GreenDarkColorScheme
+                    else GreenLightColorScheme
                 AppTheme.BLUE ->
                     if (darkTheme) BlueDarkColorScheme
                     else BlueLightColorScheme
