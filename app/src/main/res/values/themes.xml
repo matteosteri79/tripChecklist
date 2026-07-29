@@ -4,7 +4,7 @@
         <item name="android:windowLightStatusBar">true</item>
     </style>
     <style name="Theme.TripChecklist.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenBackground">@color/blue_light</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen</item>
         <item name="postSplashScreenTheme">@style/Theme.TripChecklist</item>
     </style>
