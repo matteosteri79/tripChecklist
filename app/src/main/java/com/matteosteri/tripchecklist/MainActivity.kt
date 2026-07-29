@@ -357,7 +357,7 @@ fun EmptyState() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(R.drawable.splashscreen),
+            painter = painterResource(R.drawable.logo),
             contentDescription = null,
             modifier = Modifier.size(220.dp)
         )
@@ -1267,7 +1267,7 @@ fun AppHeader() {
                 ) {
 
                     Image(
-                        painter = painterResource(R.drawable.splashscreen),
+                        painter = painterResource(R.drawable.logo),
                         contentDescription = null,
                         modifier = Modifier.size(120.dp)
                     )
