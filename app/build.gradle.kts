@@ -6,14 +6,14 @@ plugins {
 
 android {
     namespace = "com.matteosteri.tripchecklist"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.matteosteri.tripchecklist"
         minSdk = 24
-        targetSdk = 35
-        versionCode = 13
-        versionName = "1.4.1"
+        targetSdk = 36
+        versionCode = 14
+        versionName = "1.4.3"
 
         testInstrumentationRunner= "androidx.test.runner.AndroidJUnitRunner"
     }
