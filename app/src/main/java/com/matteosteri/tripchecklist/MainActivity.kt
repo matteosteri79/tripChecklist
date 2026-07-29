@@ -39,9 +39,13 @@ import com.matteosteri.tripchecklist.data.preset.getVisiblePresets
 import com.matteosteri.tripchecklist.theme.AppTheme
 import com.matteosteri.tripchecklist.theme.ThemeManager
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.sp
 import com.matteosteri.tripchecklist.config.AppConfig
 import com.matteosteri.tripchecklist.data.database.CategoryEntity
 import com.matteosteri.tripchecklist.data.database.ChecklistEntity
+import com.matteosteri.tripchecklist.theme.OswaldFontFamily
 import com.matteosteri.tripchecklist.utils.LanguageManager
 import com.matteosteri.tripchecklist.viewmodel.ChecklistViewModel
 
@@ -360,6 +364,13 @@ fun EmptyState() {
             painter = painterResource(R.drawable.logo),
             contentDescription = null,
             modifier = Modifier.size(220.dp)
+        )
+        Text(
+            text = stringResource(R.string.app_tagline),
+            fontFamily = OswaldFontFamily,
+            fontWeight = FontWeight.Bold,
+            fontSize = 20.sp,
+            textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(24.dp))
         Text(stringResource(R.string.welcome_message))
@@ -1265,25 +1276,27 @@ fun AppHeader() {
                     modifier = Modifier.padding(8.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-
                     Image(
                         painter = painterResource(R.drawable.logo),
                         contentDescription = null,
                         modifier = Modifier.size(120.dp)
                     )
-
+                    Text(
+                        text = stringResource(R.string.app_tagline),
+                        fontFamily = OswaldFontFamily,
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 18.sp,
+                        textAlign = TextAlign.Center
+                    )
                     Spacer(Modifier.height(12.dp))
-
-                    Text(stringResource(R.string.version_label, versionName))
-
+                    Text(
+                        stringResource(R.string.version_label, versionName),
+                        fontWeight = FontWeight.Bold
+                    )
                     Spacer(Modifier.height(12.dp))
-
                     Text(stringResource(R.string.app_description))
-
                     Spacer(Modifier.height(16.dp))
-
                     Text(stringResource(R.string.contact_support))
-
                     Spacer(Modifier.height(8.dp))
 
                     Row(

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Trip Checklist</string>
 
+    <string name="app_tagline">no olvides nada</string>
     <string name="create_checklist">Crear checklist</string>
     <string name="load_checklist">Cargar checklist</string>
     <string name="new_checklist">Nueva checklist</string>
