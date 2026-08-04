@@ -128,23 +128,10 @@ fun HomeScreen(
                 ) {
                     Icon(Icons.Default.Add, null)
                 }
-
                 DropdownMenu(
                     expanded = fabMenuExpanded,
                     onDismissRequest = { fabMenuExpanded = false }
                 ) {
-
-                    DropdownMenuItem(
-                        text = { Text(stringResource(R.string.create_checklist)) },
-                        leadingIcon = {
-                            Icon(Icons.Default.Add, contentDescription = null)
-                        },
-                        onClick = {
-                            fabMenuExpanded = false
-                            showDialog = true
-                        }
-                    )
-
                     DropdownMenuItem(
                         text = { Text(stringResource(R.string.load_checklist)) },
                         leadingIcon = {
@@ -153,6 +140,16 @@ fun HomeScreen(
                         onClick = {
                             fabMenuExpanded = false
                             showPresetSheet = true
+                        }
+                    )
+                    DropdownMenuItem(
+                        text = { Text(stringResource(R.string.create_checklist)) },
+                        leadingIcon = {
+                            Icon(Icons.Default.Add, contentDescription = null)
+                        },
+                        onClick = {
+                            fabMenuExpanded = false
+                            showDialog = true
                         }
                     )
                 }

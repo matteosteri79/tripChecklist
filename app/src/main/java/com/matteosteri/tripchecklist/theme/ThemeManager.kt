@@ -4,7 +4,6 @@ import android.content.Context
 import com.matteosteri.tripchecklist.config.AppConfig
 
 object ThemeManager {
-
     private const val KEY_THEME = "theme"
 
     fun getTheme(context: Context): AppTheme {

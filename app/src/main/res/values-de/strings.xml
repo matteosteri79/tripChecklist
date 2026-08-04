@@ -2,7 +2,7 @@
     <string name="app_name">Trip Checklist</string>
 
     <string name="app_tagline">nichts vergessen</string>
-    <string name="create_checklist">Checkliste erstellen</string>
+    <string name="create_checklist">Neue Checkliste erstellen</string>
     <string name="load_checklist">Checkliste laden</string>
     <string name="new_checklist">Neue Checkliste</string>
     <string name="checklist_name">Name der Checkliste</string>

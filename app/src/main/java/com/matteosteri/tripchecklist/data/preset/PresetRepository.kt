@@ -3,8 +3,8 @@ package com.matteosteri.tripchecklist.data.preset
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.matteosteri.tripchecklist.utils.LanguageManager
 import com.matteosteri.tripchecklist.config.AppConfig
+import com.matteosteri.tripchecklist.utils.LanguageManager
 
 fun loadPresetChecklists(context: Context): List<PresetChecklist> {
     val templateFile = when (LanguageManager.getLanguage(context)) {
